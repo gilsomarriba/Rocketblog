@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    html, body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    ::placeholder{
+        color: white;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+
+    .up-header{
+        background-color: #290742;
+        height: 55%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+        height: 80px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    .header-logo{
+        height: 30px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .nav-links{
+        color:#fff;
+        text-decoration: none;
+        font-size: 1.6vh;
+        font-weight: 400;
+        transition: .1s;
+        
+    }
+
+    .nav-links:hover{
+        border-left: solid 1px lime;
+    }
+
+    .header-search{
+        display: flex;
+        flex-direction: row;
+       
+
+    }
+    .search-input{
+        width: 12vw;
+        height: 40px;
+        background-color: #170027;
+        color: white;
+        font-size: 1.6vh;
+        border-style: none;
+    }
+
+    .search-button{
+        width: 50px;
+        height: 40px;
+        border-style: none;
+        background-color: #9e6dc2;
+    }
+
+    .up-content{
+        display: flex;
+        flex-direction: row;
+        height: 40vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        
+        
+       
+    }
+    
+    
+    .up-content-left{
+       
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+        padding-left: 50px;
+        
+        
+        
+    }
+
+    .up-content-left-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #9E6DC2;
+        font-size: 5vh;
+        
+    }
+
+    .up-content-left-text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: white;
+        width: 40vw;
+        font-size: 2.3vh;
+    }
+
+    .up-content-left-veja{
+       
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+        align-items: center;
+
+    }
+    .veja-texto{
+        color: #9E6DC2;
+        text-decoration: none;
+    }
+
+
+    .up-content-right{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .up-content-right-img{
+        
+        height: 35vh;
+
+    }
+
+    /* ---------NOTICIAS PRINCIPAIS ----------- */
+
+    .down-content-first{
+        margin-top: 90px;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+        
+    }
+
+   .first-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+   }
+
+   .main-news{
+    width: 60vh;
+    
+   }
+
+    .main-news-img{
+        height: 30vh;
+    }
+
+    .date{
+        font-size: 1.5vh;
+        margin-top: 5px;
+    }
+
+    .news-title{
+        margin-top: 10px;
+        font-size: 2.4vh;
+        color: #290742;
+        font-weight: 700;
+    }
+    .news-text{
+        margin-top: 15px;
+        font-size: 1.7vh;
+        font-weight: 400;
+    }
+
+    .second-block{
+        
+        width: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;        
+        
+    }
+
+
+
+    /* ---------NOTICIAS RÁPIDAS ----------- */
+
+    
+    .down-content-second{
+        margin-top: 90px;
+        margin-bottom: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .noticia-rapida{
+        display: flex;
+        flex-direction: column;
+       
+        height: 50vh;
+        width: 40vh;
+
+
+    }
+    .noticia-rapida-img{
+        
+        width: 40vh;
+        
+    }
